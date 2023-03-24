@@ -36,27 +36,28 @@
         <span class="header-burger__line"></span>
         <span class="header-burger__line"></span>
       </button>
-      <a class="header__logo" href="#" tabindex="" aria-label="Перейти на главную">
-        <img class="header-logo__img" src="img/logo.svg" alt="logo">
+      <!-- Лучше использовать атрибут title -->
+      <a class="header__logo" href="#" title="Перейти на главную"> 
+        <img class="header-logo__img" src="img/logo.svg" alt="Логотип: компания Евклид">
       </a>
       <nav>
-      <ul class="header__nav nav flex list-reset">
-        <li class="nav__item nav-item">
-          <a class="nav-item__link" href="#about" tabindex="" aria-label="О нас"> О&nbsp;нас </a>
-        </li>
-        <li class="nav__item nav-item">
-          <a class="nav-item__link" href="#projects" tabindex="" aria-label="Проекты"> Проекты </a>
-        </li>
-        <li class="nav__item nav-item">
-          <a class="nav-item__link" href="#work" tabindex="" aria-label="Этапы"> Этапы </a>
-        </li>
-        <li class="nav__item nav-item">
-          <a class="nav-item__link" href="#questions" tabindex="" aria-label="Отзывы"> Отзывы </a>
-        </li>
-        <li class="nav__item nav-item">
-          <a class="nav-item__link" href="#contacts" tabindex="" aria-label="Контакты"> Контакты </a>
-        </li>
-      </ul>
+        <ul class="header__nav nav flex list-reset">
+          <li class="nav__item nav-item">
+            <a class="nav-item__link" href="#about" tabindex="" aria-label="О нас"> О&nbsp;нас </a>
+          </li>
+          <li class="nav__item nav-item">
+            <a class="nav-item__link" href="#projects" tabindex="" aria-label="Проекты"> Проекты </a>
+          </li>
+          <li class="nav__item nav-item">
+            <a class="nav-item__link" href="#work" tabindex="" aria-label="Этапы"> Этапы </a>
+          </li>
+          <li class="nav__item nav-item">
+            <a class="nav-item__link" href="#questions" tabindex="" aria-label="Отзывы"> Отзывы </a>
+          </li>
+          <li class="nav__item nav-item">
+            <a class="nav-item__link" href="#contacts" tabindex="" aria-label="Контакты"> Контакты </a>
+          </li>
+        </ul>
       </nav>
 
       <button class="header__icon btn-reset" id="open-search" tabindex="" aria-label="Найти">
@@ -110,6 +111,7 @@
         </form>
     </div>
   </header>
+
   <main class="main container">
     <section class="main__special special">
       <div class="swiper">
@@ -495,6 +497,7 @@
       </ul>
     </section>
   </main>
+
   <footer class="footer" id="contacts">
     <div class="container footer__container flex">
       <div class="footer__menu menu">
@@ -577,6 +580,7 @@
       </p>
     </div>
   </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script src="https://unpkg.com/accordion-js@3.3.2/dist/accordion.js"></script>
   <script src="index.js"></script>
