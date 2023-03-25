@@ -103,3 +103,18 @@ function newFunction() {
   );
 }
 
+// Обработка установки/снятия флажка для скринридеров
+const footerFormWrapperCheck = document.querySelector('.footer-form-wrapper__check');
+const customCheckbox = document.querySelector('.custom-checkbox');
+const flagLabel = document.querySelector('.flag');
+const noflagLabel = document.querySelector('.noflag');
+
+footerFormWrapperCheck.addEventListener('focus', () => {
+  if (customCheckbox.checked) {
+    flagLabel.classList.remove('display-none');
+    noflagLabel.classList.add('display-none');
+  } else {
+    flagLabel.classList.add('display-none');
+    noflagLabel.classList.remove('display-none');
+  }
+})

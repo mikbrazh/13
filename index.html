@@ -512,7 +512,7 @@
     </section>
   </main>
 
-  <footer class="footer" id="contacts">
+  <footer class="footer" id="contacts" aria-label="Вы навели на подвал сайта">
     <div class="container footer__container flex">
       <div class="footer__menu menu">
         <a class="footer__logo" href="#" aria-label="Перейти на главную страницу">
@@ -582,7 +582,8 @@
           <input class="custom-checkbox" type="checkbox" id="accept" checked required tabindex="-1">
           <label class="footer-form-wrapper__check" for="accept" tabindex="0" aria-labelledby="label-accept">
             Согласен&nbsp;на&nbsp;обработку&nbsp;данных
-            <span id="label-accept" style="width: 0; height: 0; position: absolute; opacity: 0; z-index: -1;">Установлен флажок: даю свое согласие</span>
+            <span id="label-accept" class="flag display-none" style="width: 0; height: 0; position: absolute; opacity: 0; z-index: -1;">Установлен флажок: даю свое согласие</span>
+            <span id="label-accept" class="noflag" style="width: 0; height: 0; position: absolute; opacity: 0; z-index: -1;">Флажок снят</span>
           </label>
         </div>
       </form>

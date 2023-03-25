@@ -1314,3 +1314,7 @@ visibility: hidden;
   background-color: #000;
   background-image: url(../img/flag.svg);
 }
+
+.display-none {
+  display: none;
+}
